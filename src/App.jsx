@@ -545,7 +545,7 @@ const App = () => {
         
         <header className="relative z-10 py-6 backdrop-blur-lg bg-white/5 border-b border-white/10">
           <div className="container mx-auto px-6">
-            <h1 className="text-3xl font-bold text-transparent text-stone-500 text-center mb-2">配色弥散背景生成器</h1>
+            <h1 className="text-3xl font-bold text-stone-500 text-center mb-2">配色弥散背景生成器</h1>
             <p className="text-stone-600/60 text-center max-w-2xl mx-auto">选择预设类型，调整颜色和效果，生成并下载未来感十足的弥散背景</p>
           </div>
         </header>
@@ -746,8 +746,8 @@ const App = () => {
           </div>
         </main>
         
-        <footer className="py-4 px-6 text-center text-gray-600/40 text-sm backdrop-blur-md bg-white/5 border-t border-white/10 relative z-10">
-          背景弥散生成器 &copy; {new Date().getFullYear()}
+        <footer className="backdrop-blur-md bg-white/5 border-t border-white/10 text-sm text-gray-400 relative z-10 p-4 text-center">
+          背景弥散生成器 &copy; {new Date().getFullYear()} | Created by Yunxin Liu
         </footer>
         
         <canvas ref={canvasRef} style={{ display: 'none' }}></canvas>
